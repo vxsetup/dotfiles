@@ -235,3 +235,10 @@ exec_always --no-startup-id picom --config /home/vx/.config/i3/picom.conf
 
 # wallpaper
 exec_always feh --bg-scale -d /home/vx/1.jpg
+
+# bind applications
+
+bindsym $mod+g exec chromium
+bindsym $mod+z exec telegram-desktopr
+bindsym $mod+o exec obsidian
+
